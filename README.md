@@ -1,17 +1,19 @@
-# naett /nɛt:/
+Initialy based on [this project](https://github.com/erkkah/naett)
+
+# HttpCl /nɛt:/
 
 Tiny HTTP client library in C.
 
 Wraps native HTTP client functionality on macOS, Windows, Linux, iOS and Android in a single, simple non-blocking API.
 
-## Using `naett`
+## Using `HttpCl`
 
-Get the `naett.c` and `naett.h` files and throw them into your project. Check out the [example](./example) for a basic `Makefile` - based setup.
+Get the `httpcl.c` and `httpcl.h` files and throw them into your project. Check out the [example](./example) for a basic `Makefile` - based setup.
 
 The library needs to be initialized by a call to `naettInit()`. On Android, you need to provide a `JavaVM*` handle in the call to `naettInit()`.
 On the other platforms, call with `NULL`.
 
-See `naett.h` for reference docs.
+See `httpcl.h` for reference docs.
 
 ## Platform implementations
 
@@ -27,7 +29,7 @@ See `naett.h` for reference docs.
 ### Example
 
 ```C
-#include "naett.h"
+#include "httpcl.h"
 #include <unistd.h>
 #include <stdio.h>
 

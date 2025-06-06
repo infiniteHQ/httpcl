@@ -13,5 +13,5 @@ else
 	endif
 endif
 
-naett: main.c ../naett.c
+naett: main.c ../httpcl.c
 	gcc $^ -o $@ $(CFLAGS) $(LDFLAGS)

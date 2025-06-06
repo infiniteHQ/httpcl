@@ -1,5 +1,5 @@
 // Inlined amalgam.h: //
-#include "naett.h"
+#include "httpcl.h"
 // Inlined naett_core.c: //
 // Inlined naett_internal.h: //
 #ifndef NAETT_INTERNAL_H
